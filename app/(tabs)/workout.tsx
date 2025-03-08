@@ -1,25 +1,24 @@
 import { StyleSheet } from "react-native";
-
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
 
-export default function HomeScreen() {
+export default function WorkoutScreen() {
   return (
     <ThemedView style={styles.container}>
-      <ThemedText type="title">Home</ThemedText>
+      <ThemedText type="title">Workout</ThemedText>
       <ThemedView style={styles.contentContainer}>
-        <ThemedText type="subtitle">Workout History</ThemedText>
+        <ThemedText type="subtitle">Upcoming Workouts</ThemedText>
         <ThemedText>
-          This is a placeholder for the workout history section. Your past
-          workouts will be displayed here.
+          This is a placeholder for the upcoming workouts section. Your
+          scheduled workouts will be displayed here.
         </ThemedText>
       </ThemedView>
 
       <ThemedView style={styles.contentContainer}>
-        <ThemedText type="subtitle">Calendar</ThemedText>
+        <ThemedText type="subtitle">Workout Tips</ThemedText>
         <ThemedText>
-          This is a placeholder for the calendar view. Your workout schedule and
-          history will be visualized here.
+          This is a placeholder for workout tips. Helpful advice and strategies
+          will be shared here.
         </ThemedText>
       </ThemedView>
     </ThemedView>
